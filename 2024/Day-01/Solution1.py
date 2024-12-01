@@ -20,7 +20,5 @@ def get_input(file_name):
 
 if __name__ == "__main__":
     list1, list2 = get_input('input.txt')
-    print("List 1: ", list1)
-    print("List 2: ", list2)
     sum_diff = calculate_distances(list1, list2)
     print(sum_diff)
